@@ -1,6 +1,6 @@
 #include"iostream"
 using namespace std;
-string usuario="",pass="",user="Jesus234.",password="2019";
+string usuario="",pass="",user="Julio",password="940895";
 int numero1,numero2,numero3,resultado;
 int main(){
 	

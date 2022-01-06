@@ -3,13 +3,14 @@
 using namespace std;
 int main(){
 	
-	string user,pass,usuario="Sistema",password= "Admin01";
+	string user,pass,usuario="Jesus",password= "2005";
 	char seguir;
 	int multiplica,numero,i;
 	cout<<"Bienvenido por favor ingresa al sistema\n";
 	cout<<"Ingresa tu usuario:";
 	cin>>user;
 	cout<<"Ingresa tu password:";
+	cin>>password;
 	
 	if(user== usuario && pass==password){
 }

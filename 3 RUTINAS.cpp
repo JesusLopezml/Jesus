@@ -64,7 +64,7 @@ int main(){
 		cout<<" la letra seleccionada es:"<<letra<<"Es una vocal\n";
 	}
 	
-	else if(letra =='0'){
+	else if(letra =='o'){
 		cout<<" la letra seleccionada es:"<<letra<<"Es una vocal\n";
 	}
 	

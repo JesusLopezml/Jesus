@@ -2,10 +2,10 @@
 #include<stdio.h>
 using namespace std;
 string username,pass,user="Jesus",passw="2005";
-char menu,letra,opc1,opc2,opc3,opc4,opc5,opc6,opc7;
+char menu,letra,opc1,opc2,opc3,opc4,opc5,opc6,opc7,opc8;
 int main (){
 	
-	int a,b,c,d,e,f,resp;
+	int a,b,c,d,e,f,g,resp;
 	
 	cout<<"Bienvenido a nuestro aplicativo porfavor identificate\n";
 	cout<<"Ingresa tu usuario:";
@@ -21,7 +21,8 @@ int main (){
 		cout<<"c)Estudia las tablas de multiplicar\n";
 		cout<<"d)Vocal o consonatente\n";
 		cout<<"e)Programa de division\n";
-		cout<<"f)Edad,mes,dias,hrs,minutos,segundos";
+		cout<<"f)Edad,mes,dias,hrs,minutos,segundos\n";
+		cout<<"g)Decimal a Binario\n";
 		cin>>menu;
 		switch(menu){
 			case'a':
@@ -136,12 +137,10 @@ int main (){
 		  	
 		  }while(opc7 =='n');
 		break;
-}
-}
+	}
 		else{
 			cout<<"Opcion no eres usuario cerrar programa\n";
 		}
-
 		return 0;
 		cin.get();
 	}

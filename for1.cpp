@@ -1,6 +1,6 @@
 #include"iostream"
 using namespace std;
-string user="Jesus",pass="315",usuario,password,saludo="Hola Bienvenido",nombre="Jesus",edad="16",grupo="315";
+string user="Jesus",pass="315",usuario,password,saludo="Hola Bienvenido",nombre="Julio",edad="16",grupo="317";
 int main(){
 	
 	int opc; 

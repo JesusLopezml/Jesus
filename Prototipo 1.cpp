@@ -108,6 +108,7 @@ int main (){
 			cin>>a;
 			cout<<"Ingresa el segundo numero a dividir:";
 			cin>>b;
+			resp=a/b;
 			cout<<"La respuesta de la divicion es:\n"<<a<<"/"<<b<<"="<<resp;
 			cout<<"¿Quieres dividir de nuevo(s/n)?\n";
 			cin>>opc6;
